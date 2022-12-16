@@ -5,7 +5,7 @@ a {
 }
 
 .up {
-    background-color: rgb(21, 152, 156);
+    background-color: rgb(6, 24, 85);
     padding-inline-start: 10px;
     padding-bottom: 5px;
 }
@@ -13,6 +13,7 @@ a {
 body {
     margin: 10px;
     background-color: rgb(255, 255, 255);
+    height: 100%;
 }
 
 h1 {
@@ -38,8 +39,8 @@ h4 {
 }
 
 h2 {
-    background-color: rgb(21, 77, 133);
-    color: white;
+    background-color: rgb(169, 203, 236);
+    color: rgb(4, 66, 166);
     padding-inline-start: 10px;
 }
 
@@ -98,4 +99,8 @@ h3 {
 
 .projects {
     display:flex;
+}
+
+#logo {
+    margin: 10px;
 }
