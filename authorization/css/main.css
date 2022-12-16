@@ -104,3 +104,20 @@ h3 {
 #logo {
     margin: 10px;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+}
+
+.footer {
+    height: -150px;
+    color: white;
+    text-align: center;
+    background-color: rgb(6, 24, 85);
+    padding: 10px;
+}
