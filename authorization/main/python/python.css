@@ -16,6 +16,7 @@ h1{
     width: 600px;
     margin-left: 400px;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -26,9 +27,15 @@ h2 {
 h3 {
     color: rgb(4, 71, 13);
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 input {
     border: 2px solid black;
+    font-weight: 800;
+}
+
+.first,
+.second {
+    color: white;
 }
