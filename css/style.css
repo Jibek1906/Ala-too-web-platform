@@ -1,0 +1,47 @@
+h1 {
+    font-size: 150px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background: rgb(19, 4, 85);
+    color: #000;
+    font-size: 40px;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+.first_button {
+   display: inline;
+
+}
+
+.second_button {
+    display: inline;
+}
+
+form {
+    display: inline;
+    position: relative;
+    left: 35%;
+    transform: translate(-50%, 0);
+}
+
+html {
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}

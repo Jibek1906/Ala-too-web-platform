@@ -1,0 +1,26 @@
+
+.input-group {
+    border:10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+.btn {
+    border: 4px border black;
+    background: grey;
+    margin: 2px;
+}
+
+a {
+    color: black;
+}
+
+#first {
+    margin-left: 20px;
+    font-size: 200px;
+}
