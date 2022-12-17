@@ -1,41 +1,95 @@
 body {
-    background-color: rgb(3, 94, 47);
+    background-color: rgb(35, 158, 219);
     text-align: center;
 }
-
+  
 h1{
-    text-align: center;
     font-size: 80px;
     color: white;
 }
-
+  
 .square {
-    background-color: rgb(84, 162, 107);
-    border: 200px solid black;
-    height: 1000px;
-    width: 800px;
+    background-color: rgb(98, 194, 243);
+    border: 5px solid black;
+    height: 850px;
+    width: 650px;
     margin-left: 400px;
     border-radius: 15px;
     margin-bottom: 20px;
 }
-
+  
 h2 {
-    border-bottom: 2px solid rgb(5, 57, 20);
-    font-weight: 1000;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 78, 108);
+    border-radius: 10px;
 }
-
+  
 h3 {
-    color: rgb(4, 71, 13);
-    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
     font-weight: 600;
+    margin-bottom: 5px;
 }
-
+  
 input {
     border: 2px solid black;
     font-weight: 800;
 }
-
-.first,
-.second {
+  
+.text {
+    color: rgb(0, 0, 0);
+}
+  
+h4 {
+    font-size: 30px;
+    background-color: rgb(8, 78, 108);
     color: white;
+}
+  
+.text {
+    font-size: 28px;
+}
+  
+.req {
+    font-size: 28px ;
+    background-color: rgb(8, 78, 108);
+}
+  
+.req-text {
+    font-size: 23px;
+}
+  
+#square-second {
+    height: 800px;
+    width: 650px;
+}
+  
+#square-third {
+    height: 800px;
+    width: 650px;
+}
+  
+header {
+    background-color: rgb(12, 103, 143);
+    border: 5px solid black;
+    margin: 10px;
+}
+  
+#back {
+    margin-left: -500px;
+    margin-right: 100px;
+}
+  
+.img-c {
+    margin-left: 200px;
+}
+
+#square-first {
+    height: 890px;
+    width: 650px;
+}
+  
+#given {
+    color: rgb(8, 2, 89);
 }

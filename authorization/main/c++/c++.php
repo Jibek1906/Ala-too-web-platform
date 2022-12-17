@@ -12,7 +12,8 @@
 
 <body>
     <header>
-        <h1><a href="../../main.html"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img class="img-c" src="../img/c++.png" width="150px" height="150px"></h1>
+        <h1><a href="../../main.html"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
+                class="img-c" src="../img/c++.png" width="150px" height="150px"></h1>
     </header>
     <div id="body">
 
@@ -23,15 +24,15 @@
                 <h3 class="text">Display arithmetic operations with mixed data type :<br>
                     -----------------------------------<br>
                     The sum of 29 and 30 is : 59<br></h3>
-                    <h4 class="req"><strong>Requests</strong></h4>
-                    <h3 class="req-text">Code should be:<br>
-                        valid<br>
-                        clean<br>
-                        no comments please</h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+                <h4 class="req"><strong>Requests</strong></h4>
+                <h3 class="req-text">Code should be:<br>
+                    valid<br>
+                    clean<br>
+                    no comments please</h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
         <div class="square" id="square-second">
@@ -58,11 +59,11 @@
                         valid<br>
                         clean<br>
                         no comments please</h3>
-                    </h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+                </h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
         <div class="square" id="square-third">
@@ -71,7 +72,7 @@
                 <h4><strong>Sample Output</strong></h4>
                 <h3 class="text">Display the operation of pre and post increment and decrement :<br>
                     -----------------------------------<br>
-                    
+
                     The number is : 57<br>
                     After post increment by 1 the number is : 58<br>
                     After pre increment by 1 the number is : 59<br>
@@ -85,11 +86,11 @@
                         valid<br>
                         clean<br>
                         no comments please</h3>
-                    </h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+                </h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
     </div>

@@ -12,46 +12,89 @@
 
 <body>
     <header>
-        <h1><img src="../img/python.webp" width="150px" height="150px">Python</h1>
+        <h1><a href="../../main.html"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
+                class="img-c" src="../img/python.webp" width="150px" height="150px">Python</h1>
     </header>
     <div id="body">
 
-        <div class="square">
-            <h2>Task 1</h2>
-            <h3>Take two lists, say for example these two:<br>
-                <h3 class="first"> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]<br>
-                    <h3 class="second"> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-                    </h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+        <div class="square" id="square-first">
+            <h2><strong>Task 1</strong></h2>
+            <h3>Write a program to iterate the first 10 numbers and in each iteration, print the sum of the current and
+                previous number.<br>
+                <h4><strong>Expected Output:</strong></h4>
+                <h3 class="text">Printing current and previous number sum in a range(10)<br>
+                    -----------------------------------<br>
+                    Current Number 0 Previous Number 0 Sum: 0<br>
+                    Current Number 1 Previous Number 0 Sum: 1<br>
+                    Current Number 2 Previous Number 1 Sum: 3<br>
+                    Current Number 3 Previous Number 2 Sum: 5<br>
+                    Current Number 4 Previous Number 3 Sum: 7<br>
+                    Current Number 5 Previous Number 4 Sum: 9<br>
+                    Current Number 6 Previous Number 5 Sum: 11<br>
+                    Current Number 7 Previous Number 6 Sum: 13<br>
+                    Current Number 8 Previous Number 7 Sum: 15<br>
+                    Current Number 9 Previous Number 8 Sum: 17
+                </h3>
+                <h4 class="req"><strong>Requests</strong></h4>
+                <h3 class="req-text">Code should be:<br>
+                    valid<br>
+                    clean<br>
+                    no comments please</h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
-        <div class="square">
-            <h2>Task 2</h2>
-            <h3>Take two lists, say for example these two:<br>
-                <h3 class="first"> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]<br>
-                    <h3 class="second"> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-                        <h3>Requests</h3>
-                    </h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+        <div class="square" id="square-second">
+            <h2><strong>Task 2</strong></h2>
+            <h3>Write a program to accept a string from the user and display characters that are present at an even
+                index number.<br>
+                For example, str = "pynative" so you should display ‘p’, ‘n’, ‘t’, ‘v’.
+                <h4><strong>Expected Output:</strong></h4>
+                <h3 class="text">Orginal String is pynative<br>
+                    Printing only even index chars<br>
+                    -----------------------------------<br>
+                    p<br>
+                    n<br>
+                    t<br>
+                    v
+                </h3>
+                <h4 class="req"><strong>Requests</strong></h4>
+                <h3 class="req-text">Code should be:<br>
+                    valid<br>
+                    clean<br>
+                    no comments please</h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
-        <div class="square">
-            <h2>Task 2</h2>
-            <h3>Take two lists, say for example these two:<br>
-                <h3 class="first"> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]<br>
-                    <h3 class="second"> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-                        <h3>Requests</h3>
-                    </h3>
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input class="input" type="file" name="file">
-                        <input class="input" type="submit" value="Upload">
-                    </form>
+        <div class="square" id="square-third">
+            <h2><strong>Task 3</strong></h2>
+            <h3>Write a function to return True if the first and last number of a given list is same. If numbers are
+                different then return False.<br>
+                Given:<br>
+                <h3 id="given">numbers_x = [10, 20, 30, 40, 10]<br>
+                    numbers_y = [75, 65, 35, 75, 30]</h3>
+                <h4><strong>Expected Output:</strong></h4>
+                <h3 class="text">
+                    Given list: [10, 20, 30, 40, 10]<br>
+                    result is True<br>
+                    -----------------------------------<br>
+                    numbers_y = [75, 65, 35, 75, 30]<br>
+                    result is False
+                </h3>
+                <h4 class="req"><strong>Requests</strong></h4>
+                <h3 class="req-text">Code should be:<br>
+                    valid<br>
+                    clean<br>
+                    no comments please</h3>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input class="input" type="file" name="file">
+                    <input class="input" type="submit" value="Upload">
+                </form>
         </div>
 
     </div>
