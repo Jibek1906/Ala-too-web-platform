@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+  
+h1{
+    font-size: 80px;
+    color: white;
+}
+  
+.square {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    height: 850px;
+    width: 650px;
+    margin-left: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+  
+h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 105, 16);
+    border-radius: 10px;
+}
+  
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+  
+input {
+    border: 2px solid black;
+    font-weight: 800;
+}
+  
+.text {
+    color: rgb(0, 0, 0);
+}
+  
+h4 {
+    font-size: 30px;
+    background-color: rgb(236, 105, 16);
+    color: white;
+}
+  
+.text {
+    font-size: 28px;
+}
+  
+.req {
+    font-size: 28px ;
+    background-color: rgb(236, 105, 16);
+}
+  
+.req-text {
+    font-size: 23px;
+}
+  
+#square-second {
+    height: 850px;
+    width: 650px;
+}
+  
+#square-third {
+    height: 850px;
+    width: 650px;
+}
+  
+header {
+    background-color: rgb(236, 105, 16);
+    border: 5px solid black;
+    margin: 10px;
+}
+  
+#back {
+    margin-left: -500px;
+    margin-right: 100px;
+}
+  
+.img-c {
+    margin-left: 200px;
+}
+
+#square-first {
+    height: 650px;
+    width: 650px;
+}
+  
+#given {
+    color: rgb(8, 2, 89);
+}
