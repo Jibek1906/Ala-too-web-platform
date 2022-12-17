@@ -86,10 +86,15 @@ header {
 }
 
 #square-first {
-    height: 650px;
+    height: 1000px;
     width: 650px;
 }
   
 #given {
     color: rgb(8, 2, 89);
+}
+
+#ex {
+    font-size: 40px;
+    color: black;
 }
