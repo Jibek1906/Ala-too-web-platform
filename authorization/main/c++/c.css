@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(35, 158, 219);
+  text-align: center;
+}
+
+h1{
+  font-size: 80px;
+  color: white;
+}
+
+.square {
+  background-color: rgb(98, 194, 243);
+  border: 5px solid black;
+  height: 540px;
+  width: 600px;
+  margin-left: 400px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 78, 108);
+  border-radius: 10px;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input {
+  border: 2px solid black;
+  font-weight: 800;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  font-size: 30px;
+  background-color: rgb(8, 78, 108);
+  color: white;
+}
+
+.text {
+  font-size: 28px;
+}
+
+.req {
+  font-size: 28px ;
+  background-color: rgb(8, 78, 108);
+}
+
+.req-text {
+  font-size: 23px;
+}
+
+#square-second {
+  height: 950px;
+  width: 600px;
+}
+
+#square-third {
+  height: 800px;
+  width: 600px;
+}
+
+header {
+  background-color: rgb(12, 103, 143);
+  border: 5px solid black;
+  margin: 10px;
+}
+
+#back {
+  margin-left: -500px;
+  margin-right: 100px;
+}
+
+.img-c {
+  margin-left: 300px;
+}
+

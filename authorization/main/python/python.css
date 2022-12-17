@@ -11,9 +11,9 @@ h1{
 
 .square {
     background-color: rgb(84, 162, 107);
-    border: 2px solid black;
-    height: 250px;
-    width: 600px;
+    border: 200px solid black;
+    height: 1000px;
+    width: 800px;
     margin-left: 400px;
     border-radius: 15px;
     margin-bottom: 20px;

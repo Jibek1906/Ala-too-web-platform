@@ -1,18 +1,17 @@
 h1 {
     font-size: 150px;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 button {
     width: 200px;
     height: 100px;
-    background: rgb(28, 148, 138);
-    color: #000;
+    background: rgb(28, 88, 238);
     font-size: 40px;
     border-radius: 20px;
     border-width: 5px;
@@ -43,5 +42,6 @@ h2 {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
+
