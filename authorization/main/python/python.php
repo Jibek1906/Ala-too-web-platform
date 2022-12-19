@@ -1,3 +1,4 @@
+<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,10 +41,15 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="python.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
         <div class="square" id="square-second">
@@ -65,10 +71,15 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="python.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
         <div class="square" id="square-third">
@@ -91,10 +102,15 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="python.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
     </div>

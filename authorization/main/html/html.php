@@ -1,3 +1,4 @@
+<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,13 +23,16 @@
             <h3><strong>A Tribute Page</strong><br>
                 <h3 class="text">
                     Make a webpage writing about that person adding his/her image.
-                    On the top of the webpage, add the image and name of the person and below that give layout for the rest of the details.
-                    You can use paragraphs, lists, links, images with CSS to give it a descent look. Add a suitable background color and font style on your webpage.
-                    Most of the parts you can make using HTML but to give it a better look using a bit of CSS. 
+                    On the top of the webpage, add the image and name of the person and below that give layout for the
+                    rest of the details.
+                    You can use paragraphs, lists, links, images with CSS to give it a descent look. Add a suitable
+                    background color and font style on your webpage.
+                    Most of the parts you can make using HTML but to give it a better look using a bit of CSS.
                 </h3>
                 <h4><strong>You can take help from the link given below</strong></h4>
                 <h3>click on picture</h3>
-                <a id="example" href="https://codepen.io/freeCodeCamp/pen/zNqgVx"><img src="../img/ex1.png" width="90px" height="90px"></a>
+                <a id="example" href="https://codepen.io/freeCodeCamp/pen/zNqgVx"><img src="../img/ex1.png" width="90px"
+                        height="90px"></a>
                 <h4 class="req"><strong>Requests</strong></h4>
                 <h3 class="req-text">
                     <strong>Github</strong><br>
@@ -40,30 +44,35 @@
                     <strong>Code should be:</strong><br>
                     valid<br>
                     clean<br>
-                    no comments please</h3>
-                
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
-                
+                    no comments please
+                </h3>
+
+                <div class="row">
+                    <form action="html.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
+
                 <div id="timer">
 
                     <div>
                         <p>00</p>
                         <span>Days</span>
                     </div>
-    
+
                     <div>
                         <p>00</p>
                         <span>Hours</span>
                     </div>
-    
+
                     <div>
                         <p>00</p>
                         <span>Minutes</span>
                     </div>
-                    </div>
+                </div>
         </div>
 
         <div class="square" id="square-second">
@@ -73,13 +82,18 @@
                     Showcase your solid knowledge of HTML and CSS creating a beautiful webpage for a restaurant.
                     Making a layout for a restaurant will be a bit complicated than previous project examples.
                     You will be aligning the different food items and drinks using a CSS layout grid.
-                    You will be adding prices, images and you need to give it a beautiful look and feel as well using the proper combination of colors, font-style and images.
-                    You can add pictures gallery for different food items, you can also add sliding images for a better look.
-                    Add links for redirection to internal pages. Make it responsive setting a viewport, using media queries and grid.
+                    You will be adding prices, images and you need to give it a beautiful look and feel as well using
+                    the proper combination of colors, font-style and images.
+                    You can add pictures gallery for different food items, you can also add sliding images for a better
+                    look.
+                    Add links for redirection to internal pages. Make it responsive setting a viewport, using media
+                    queries and grid.
                 </h3>
                 <h4><strong>You can take help from the link given below</strong></h4>
                 <h3>click on picture</h3>
-                <a id="example" href="https://www.geeksforgeeks.org/design-a-webpage-for-online-food-delivery-system-using-html-and-css/"><img src="../img/ex2.png" width="90px" height="90px"></a>
+                <a id="example"
+                    href="https://www.geeksforgeeks.org/design-a-webpage-for-online-food-delivery-system-using-html-and-css/"><img
+                        src="../img/ex2.png" width="90px" height="90px"></a>
                 <h4 class="req"><strong>Requests</strong></h4>
                 <h3 class="req-text">
                     <strong>Github</strong><br>
@@ -91,28 +105,37 @@
                     <strong>Code should be:</strong><br>
                     valid<br>
                     clean<br>
-                    no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+                    no comments please
+                </h3>
+
+                <div class="row">
+                    <form action="html.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
         <div class="square" id="square-third">
             <h2><strong>Task 3</strong></h2>
             <h3><strong>Restaurant Website</strong><br>
                 <h3 class="text">
-                    Use flexbox and media queries for responsiveness. 
-                    Add the company name with an image (related to photography) on the top (landing page). 
-                    Below that showcase your work adding multiple images. 
-                    Mention the contact detail of the photographer at the bottom (footer). 
-                    Add a button to view your work. 
-                    This button will directly bring you down to the images section. 
-                    You need to take care of the margin, padding, color combination, font-size, font-style, image size and styling of a button.
+                    Use flexbox and media queries for responsiveness.
+                    Add the company name with an image (related to photography) on the top (landing page).
+                    Below that showcase your work adding multiple images.
+                    Mention the contact detail of the photographer at the bottom (footer).
+                    Add a button to view your work.
+                    This button will directly bring you down to the images section.
+                    You need to take care of the margin, padding, color combination, font-size, font-style, image size
+                    and styling of a button.
                 </h3>
                 <h4><strong>You can take help from the link given below</strong></h4>
                 <h3>click on picture</h3>
-                <a id="example" href="https://www.geeksforgeeks.org/how-to-make-image-gallery-using-html-css-and-javascript/"><img src="../img/ex3.png" width="90px" height="90px"></a>
+                <a id="example"
+                    href="https://www.geeksforgeeks.org/how-to-make-image-gallery-using-html-css-and-javascript/"><img
+                        src="../img/ex3.png" width="90px" height="90px"></a>
                 <h4 class="req"><strong>Requests</strong></h4>
                 <h3 class="req-text">
                     <strong>Github</strong><br>
@@ -124,11 +147,17 @@
                     <strong>Code should be:</strong><br>
                     valid<br>
                     clean<br>
-                    no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+                    no comments please
+                </h3>
+
+                <div class="row">
+                    <form action="html.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
     </div>

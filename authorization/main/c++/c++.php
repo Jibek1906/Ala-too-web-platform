@@ -1,9 +1,6 @@
 <?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
-<?php if (isset($_GET['error'])): ?>
-<p><?php echo $_GET['error']; ?></p>
-<?php endif ?>
 
 <head>
     <meta charset="UTF-8">

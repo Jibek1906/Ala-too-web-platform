@@ -63,12 +63,12 @@ h4 {
 }
 
 #square-second {
-  height: 950px;
+  height: 1000px;
   width: 600px;
 }
 
 #square-third {
-  height: 850px;
+  height: 900px;
   width: 600px;
 }
 
@@ -92,7 +92,6 @@ header {
 }
 
 button {
-  border: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 5px bold black;
 }

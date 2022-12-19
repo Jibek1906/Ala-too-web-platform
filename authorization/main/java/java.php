@@ -1,3 +1,4 @@
+<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Log in</title>
+    <title>Java</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="java.css" type="text/css" />
 </head>
@@ -35,10 +36,16 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="java.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
+
         </div>
 
         <div class="square" id="square-second">
@@ -65,10 +72,16 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="java.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
+
         </div>
 
         <div class="square" id="square-third">
@@ -95,10 +108,16 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="java.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
+
         </div>
 
     </div>

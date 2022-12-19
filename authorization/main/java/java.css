@@ -59,14 +59,19 @@ h4 {
 .req-text {
     font-size: 23px;
 }
+
+#square-first {
+    height: 1000px;
+    width: 650px;
+}
   
 #square-second {
-    height: 850px;
+    height: 1000px;
     width: 650px;
 }
   
 #square-third {
-    height: 850px;
+    height: 950px;
     width: 650px;
 }
   
@@ -83,11 +88,6 @@ header {
   
 .img-c {
     margin-left: 200px;
-}
-
-#square-first {
-    height: 1000px;
-    width: 650px;
 }
   
 #given {
