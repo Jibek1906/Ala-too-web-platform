@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <h1>Log in</h1>
 
     <form method="post" action="login.php">
@@ -29,9 +28,9 @@
         <div class="input-group">
             <button type="submit" class="btn" name="login_user">Login</button>
         </div>
-        <p>
-            Not yet a member? <a href="register.php">Sign up</a>
-        </p>
+        <p><strong>
+                Not yet a member? <a href="register.php">Sign up</a>
+            </strong></p>
     </form>
 </body>
 

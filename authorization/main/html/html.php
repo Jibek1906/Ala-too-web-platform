@@ -41,10 +41,29 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
+                
                 <form action="upload.php" method="post" enctype="multipart/form-data">
                     <input class="input" type="file" name="file">
                     <input class="input" type="submit" value="Upload">
                 </form>
+                
+                <div id="timer">
+
+                    <div>
+                        <p>00</p>
+                        <span>Days</span>
+                    </div>
+    
+                    <div>
+                        <p>00</p>
+                        <span>Hours</span>
+                    </div>
+    
+                    <div>
+                        <p>00</p>
+                        <span>Minutes</span>
+                    </div>
+                    </div>
         </div>
 
         <div class="square" id="square-second">

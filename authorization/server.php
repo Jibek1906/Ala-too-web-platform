@@ -78,14 +78,29 @@ if (isset($_POST['login_user'])) {
   	$password = md5($password);
   	$query = "SELECT * FROM users WHERE email='$email' AND password='$password'";
   	$results = mysqli_query($db, $query);
-  	if (mysqli_num_rows($results) == 1) {
+
+  if (mysqli_num_rows($results) == 1) {
       $_SESSION['email'] = $email;
   	  $_SESSION['success'] = "You are now logged in";
   	  header('location: main.html');
-  	}else { 
-  		array_push($errors, "Wrong email or password combination");
-  	}
   }
+
+    if ($_SESSION['email'] == "Javlon@alatoo.edu.kg") {
+      header('location: admin.html');
+  }
+
+    if ($_SESSION['email'] == "Nurmuhammed@alatoo.edu.kg") {
+      header('location: admin.html');
+  }
+    if ($_SESSION['email'] == "Ruslan@alatoo.edu.kg") {
+      header('location: admin.html');
+  }
+    if ($_SESSION['email'] == "Azamat@alatoo.edu.kg") {
+            header('location: admin.html');
+        }else{ 
+  		array_push($errors, "Wrong email or password combination");
+  }
+ }
 }
 
 ?>

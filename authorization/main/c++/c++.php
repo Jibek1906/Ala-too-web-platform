@@ -1,5 +1,9 @@
+<?php include 'filesLogic.php';?>
 <!DOCTYPE html>
 <html lang="en">
+<?php if (isset($_GET['error'])): ?>
+<p><?php echo $_GET['error']; ?></p>
+<?php endif ?>
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +21,7 @@
     </header>
     <div id="body">
 
-        <div class="square">
+        <div class="square" id="square-first">
             <h2><strong>Task 1</strong></h2>
             <h3>Write a program in C++ to print the sum of two numbers.<br>
                 <h4><strong>Sample Output</strong></h4>
@@ -29,10 +33,33 @@
                     valid<br>
                     clean<br>
                     no comments please</h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+
+                <div class="row">
+                    <form action="c++.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
+
+                <div id="timer">
+
+                    <div>
+                        <p>00</p>
+                        <span>Days</span>
+                    </div>
+
+                    <div>
+                        <p>00</p>
+                        <span>Hours</span>
+                    </div>
+
+                    <div>
+                        <p>00</p>
+                        <span>Minutes</span>
+                    </div>
+                </div>
         </div>
 
         <div class="square" id="square-second">
@@ -60,10 +87,14 @@
                         clean<br>
                         no comments please</h3>
                 </h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+                <div class="row">
+                    <form action="c++.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
         <div class="square" id="square-third">
@@ -87,14 +118,19 @@
                         clean<br>
                         no comments please</h3>
                 </h3>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    <input class="input" type="file" name="file">
-                    <input class="input" type="submit" value="Upload">
-                </form>
+                <div class="row">
+                    <form action="c++.php" method="post" enctype="multipart/form-data">
+                        <h4 class="req"><strong>Upload File</h4>
+                        <h5>Your file extension must be .zip, .pdf or .png </h5>
+                        <input type="file" name="myfile"> <br>
+                        <button type="submit" name="save">upload</button>
+                    </form>
+                </div>
         </div>
 
     </div>
 
 </body>
+<script src="c.js"></script>
 
 </html>

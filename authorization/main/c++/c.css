@@ -11,8 +11,6 @@ h1{
 .square {
   background-color: rgb(98, 194, 243);
   border: 5px solid black;
-  height: 540px;
-  width: 600px;
   margin-left: 400px;
   border-radius: 15px;
   margin-bottom: 20px;
@@ -59,13 +57,18 @@ h4 {
   font-size: 23px;
 }
 
+#square-first {
+  height: 850px;
+  width: 600px;
+}
+
 #square-second {
   height: 950px;
   width: 600px;
 }
 
 #square-third {
-  height: 800px;
+  height: 850px;
   width: 600px;
 }
 
@@ -84,3 +87,12 @@ header {
   margin-left: 300px;
 }
 
+#timer {
+  display: flex;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}

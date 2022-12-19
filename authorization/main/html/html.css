@@ -96,3 +96,9 @@ header {
 a {
     font-size: 40px;
 }
+
+#timer {
+    display: flex;
+    margin-bottom: 100px;
+}
+  
