@@ -24,6 +24,7 @@ button {
 
 .second_button {
     display: inline;
+    margin-bottom: -50px;
 }
 
 form {
@@ -44,3 +45,22 @@ h2 {
 body {
     background-color: rgb(255, 255, 255);
 }
+
+.results {
+    border-radius: 5px bold black;
+    width: 100px;
+    height: 100px;
+}
+
+#picture_btn {
+    height: 150px;
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: -900px;
+}
+
+#random {
+    margin-left: 200px;
+}
+

@@ -139,3 +139,16 @@ h5 {
 #numbers {
     font-size: 20px;
 }
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 100px auto;
+    border: 2px solid black;
+}
+
+th,td {
+    height: 50px;
+    vertical-align: center;
+    border: 2px solid black;
+}

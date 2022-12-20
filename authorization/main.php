@@ -92,7 +92,8 @@
             <h3 class="pr">Java</h3>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>15.01.2023</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>15.01.2023</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2023/01/15";
@@ -110,7 +111,8 @@
             </div>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>30.09.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>30.09.2022</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2022/09/30";
@@ -128,7 +130,8 @@
             </div>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>24.11.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>24.11.2022</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2022/11/24";
@@ -148,7 +151,8 @@
             <h3 class="pr">Python</h3>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>29.11.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>29.11.2022</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2022/11/29";
@@ -165,7 +169,8 @@
 
             </div>
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>01.11.23</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>01.11.23</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2023/11/01";
@@ -183,7 +188,8 @@
             </div>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>28.02.2023</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>28.02.2023</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2023/02/28";
@@ -203,7 +209,8 @@
             <h3 class="pr">C++</h3>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>03.12.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>03.12.2022</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2022/12/03";
@@ -221,7 +228,8 @@
 
             </div>
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>16.01.2023</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>16.01.2023</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2023/01/16";
@@ -239,7 +247,8 @@
             </div>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>21.10.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>21.10.2022</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2022/10/21";
@@ -258,7 +267,8 @@
             <h3 class="pr">HTML</h3>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>23.02.2023</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/1.png" width="60px" height="60px"><strong>23.02.2023</strong>
+                </h5>
                 <?php
 
                    $exp_date = "2023/02/23";
@@ -275,7 +285,8 @@
 
             </div>
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>08.01.2023</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/2.png" width="60px" height="60px"><strong>08.01.2023</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2023/01/08";
@@ -293,7 +304,8 @@
             </div>
 
             <div id="deadlines">
-                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>31.10.2022</strong></h5>
+                <h5 id="numbers"></h5><img src="main/img/3.png" width="60px" height="60px"><strong>31.10.2022</strong>
+                </h5>
                 <?php
 
                 $exp_date = "2022/10/31";
@@ -308,7 +320,7 @@
                 echo "YOU CAN STILL DO IT";
                 }?>
 
-            </div> 
+            </div>
 
         </div>
 

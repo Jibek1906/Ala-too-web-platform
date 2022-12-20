@@ -86,17 +86,17 @@ if (isset($_POST['login_user'])) {
   }
 
     if ($_SESSION['email'] == "Javlon@alatoo.edu.kg") {
-      header('location: admin.html');
+      header('location: main/python/downloads.php');
   }
 
     if ($_SESSION['email'] == "Nurmuhammed@alatoo.edu.kg") {
-      header('location: admin.html');
+      header('location: main/c++/downloads.php');
   }
     if ($_SESSION['email'] == "Ruslan@alatoo.edu.kg") {
-      header('location: admin.html');
+      header('location: main/html/downloads.php');
   }
     if ($_SESSION['email'] == "Azamat@alatoo.edu.kg") {
-            header('location: admin.html');
+            header('location: main/java/downloads.php');
         }else{ 
   		array_push($errors, "Wrong email or password combination");
   }
