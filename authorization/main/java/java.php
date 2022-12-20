@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1><a href="../../main.html"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
+        <h1><a href="../../main.php"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
                 class="img-c" src="../img/java.png" width="150px" height="150px">Java</h1>
     </header>
     <div id="body">

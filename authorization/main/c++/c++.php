@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1><a href="../../main.html"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
+        <h1><a href="../../main.php"><img id="back" src="../img/back.png" width="90px" height="90px"></a><img
                 class="img-c" src="../img/c++.png" width="150px" height="150px"></h1>
     </header>
     <div id="body">
@@ -43,7 +43,7 @@
                 <div id="square">
                     <h3 class="first">Task2</h3> <?php
 
-                   $exp_date = "2023/01/15";
+                   $exp_date = "2023/01/16";
                    $today_date = date('Y/m/d');
 
                    $exp = strtotime($exp_date);
@@ -54,7 +54,7 @@
                    } else {
                    echo "YOU CAN STILL DO IT";
                    }?>
-                    <h5 id="numbers">15.01.2023</h5>
+                    <h5 id="numbers">16.01.2023</h5>
                 </div>
 
                 <div id="square">
@@ -140,7 +140,7 @@
                 </div>
 
                 <h4><strong>Deadline</strong></h4>
-                <h5><strong>15.01.2023</strong></h5>
+                <h5><strong>16.01.2023</strong></h5>
         </div>
 
         <div class="square" id="square-third">
