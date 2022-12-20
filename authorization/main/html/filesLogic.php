@@ -27,7 +27,7 @@ if (isset($_POST['save'])) {
         if (move_uploaded_file($file, $destination)) {
             $sql = "INSERT INTO html(name, size, downloads) VALUES('$filename', $size, 0)";
             if (mysqli_query($conn, $sql)) {
-                header('Location: downloads.php');
+                echo "File uploaded.";
             }
         } else {
             echo "Failed to upload file.";
