@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Log in</title>
+    <title>C++</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="c.css" type="text/css" />
 </head>
@@ -17,6 +17,67 @@
                 class="img-c" src="../img/c++.png" width="150px" height="150px"></h1>
     </header>
     <div id="body">
+
+        <div class="tasks">
+            <h2><strong>Deadlines</strong></h2>
+            <div id="deadline">
+
+                <div id="square">
+                    <h3 class="first">Task1</h3>
+                    <?php
+
+                   $exp_date = "2022/12/03";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">03.12.2022</h5>
+                </div>
+
+                <div id="square">
+                    <h3 class="first">Task2</h3> <?php
+
+                   $exp_date = "2023/01/15";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">15.01.2023</h5>
+                </div>
+
+                <div id="square">
+                    <h3 class="first">Task3</h3>
+                    <?php
+
+                   $exp_date = "2022/10/21";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">21.10.2022</h5>
+                </div>
+
+            </div>
+
+        </div>
 
         <div class="square" id="square-first">
             <h2><strong>Task 1</strong></h2>
@@ -40,23 +101,8 @@
                     </form>
                 </div>
 
-                <div id="timer">
-
-                    <div>
-                        <p>00</p>
-                        <span>Days</span>
-                    </div>
-
-                    <div>
-                        <p>00</p>
-                        <span>Hours</span>
-                    </div>
-
-                    <div>
-                        <p>00</p>
-                        <span>Minutes</span>
-                    </div>
-                </div>
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>03.12.2022</strong></h5>
         </div>
 
         <div class="square" id="square-second">
@@ -92,6 +138,9 @@
                         <button type="submit" name="save">upload</button>
                     </form>
                 </div>
+
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>15.01.2023</strong></h5>
         </div>
 
         <div class="square" id="square-third">
@@ -123,6 +172,9 @@
                         <button type="submit" name="save">upload</button>
                     </form>
                 </div>
+
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>21.10.2022</strong></h5>
         </div>
 
     </div>

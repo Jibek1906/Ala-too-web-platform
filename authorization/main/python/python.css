@@ -61,18 +61,18 @@ h4 {
 }
 
 #square-first {
-    height: 950px;
+    height: 1130px;
     width: 650px;
 }
   
 #square-second {
-    height: 850px;
+    height: 1000px;
     width: 650px;
 }
   
 #square-third {
-    height: 800px;
-    width: 680px;
+    height: 980px;
+    width: 650px;
 }
   
 header {
@@ -93,3 +93,47 @@ header {
 #given {
     color: rgb(8, 2, 89);
 }
+
+button {
+    padding: 10px;
+    border-radius: 5px bold rgb(0, 196, 163);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+.tasks {
+    width: 1000px;
+    height: 250px;
+    border: 5px solid black;
+    margin-left: 230px;
+    margin-bottom: 30px;
+    background-color: rgb(98, 194, 243);
+}
+  
+h5 {
+    font-size: 25px;
+}
+  
+#square {
+    width: 300px;
+    height: 150px;
+    border: 5px solid black;
+    margin-left: 23px;
+    background-color: white;
+}
+  
+#deadline {
+    display:flex;
+}
+  
+.first {
+    border-bottom: 5px solid black;
+    background-color: rgb(243, 65, 65);
+}
+  
+#numbers {
+    font-size: 20px;
+}
+
+
+  

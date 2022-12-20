@@ -18,6 +18,69 @@
     </header>
     <div id="body">
 
+        <div class="tasks">
+            <h2><strong>Deadlines</strong>
+            </h2>
+            <div id="deadline">
+
+                <div id="square">
+                    <h3 class="first">Task1</h3>
+                    <?php
+
+                   $exp_date = "2023/01/15";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">15.01.2023</h5>
+                </div>
+
+                <div id="square">
+                    <h3 class="first">Task2</h3>
+                    <?php
+
+                   $exp_date = "2022/09/30";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">30.09.2022</h5>
+                </div>
+
+                <div id="square">
+                    <h3 class="first">Task3</h3>
+                    <?php
+
+                   $exp_date = "2022/11/24";
+                   $today_date = date('Y/m/d');
+
+                   $exp = strtotime($exp_date);
+                   $td = strtotime($today_date);
+
+                   if ($td > $exp) {
+                   echo "TIME IS OVER";
+                   } else {
+                   echo "YOU CAN STILL DO IT";
+                   }?>
+                    <h5 id="numbers">24.11.2022</h5>
+                </div>
+
+            </div>
+
+        </div>
+
         <div class="square" id="square-first">
             <h2><strong>Task 1</strong></h2>
             <h3>Java program to check whether the given number is even or odd<br>
@@ -45,6 +108,9 @@
                         <button type="submit" name="save">upload</button>
                     </form>
                 </div>
+
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>15.01.2023</strong></h5>
 
         </div>
 
@@ -82,6 +148,9 @@
                     </form>
                 </div>
 
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>30.09.2022</strong></h5>
+
         </div>
 
         <div class="square" id="square-third">
@@ -117,6 +186,9 @@
                         <button type="submit" name="save">upload</button>
                     </form>
                 </div>
+
+                <h4><strong>Deadline</strong></h4>
+                <h5><strong>24.11.2022</strong></h5>
 
         </div>
 

@@ -61,6 +61,7 @@ h2 {
     padding: 0px;
     box-sizing:border-box;
     box-shadow: 0 10px 15px grey;
+    margin-bottom: 20px;
 }
 
 .course {
@@ -135,6 +136,10 @@ body {
 }
 
 #cal {
+    margin-top: 20px;
+}
+
+#proposed-projects {
     margin-top: 20px;
 }
 
